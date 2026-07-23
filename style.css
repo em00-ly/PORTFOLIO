@@ -31,6 +31,12 @@ h1{
     text-align: center;
 }
 
+.subtitle{
+    font-size: 0.5em;
+    font-weight: normal;
+    color: #a8c9e8;
+}
+
 .skills-container{
     display:flex;
     flex-wrap:wrap;
@@ -85,6 +91,18 @@ a:hover{
     color: white;
 }
 
+.click-hint{
+    font-size: 0.8em;
+    font-style: italic;
+    color: #a8c9e8;
+    opacity: 0.75;
+    margin: 4px 0 14px 0;
+}
+
+.doc-icon{
+    margin-right: 4px;
+}
+
 @keyframes floatCloud{
     0%{
         transform:translateY(0px);
@@ -101,4 +119,24 @@ a:hover{
 
 .networking-box{
     margin-top:20px;
+}
+
+.contact-container{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:15px;
+    margin-top:20px;
+    margin-bottom:40px;
+}
+
+.contact-link{
+    text-decoration:none;
+    color:white;
+    font-weight:normal;
+    font-size:1.3em;
+}
+
+.contact-link:hover{
+    color:#8ecae6;
 }
